@@ -1,6 +1,7 @@
 # ALS Hook Methor - PTBR
 
 ## Creditos: ! FBI
+### Github: [Masanb](https://github.com/Masanb)
 ### Discord: ! FBI#2799
 
 <br>
