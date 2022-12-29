@@ -5,6 +5,9 @@
 
 <br>
 
+### Nessa thread eu estarei basicamente explicando um método chamado ALS Hook que se trata de um bug do compilador que permite você fazer "hooks" ou chamadas de funções já existentes em outras partes do seu código, permitindo assim você dividir o seu código em módulos. Normalmente isso é feito com o Y_hooks da biblioteca YSI, porém existem motivos para optar pelo método ALS e irei detalhar melhor durante a thread.
+<br>
+
 >## Prólogo
 
 - ### Bem, como descrito acima, fazer hooks de callbacks por exemplo te permite que você divida o seu código em várias partes, ou módulos. Tentar chamar a mesma callback várias vezes sem fazer um hook só te retornará erro avisando que a callback já existe, por isso são necessários métodos hook para isso. No momento é muito usada a include Y_Hooks do Y_Less(criador da include), porém essa include trás problemas como, precisar de toda a biblioteca YSI mesmo que você queira usar apenas o Y_hooks, atrasos na hora de compilar, erros de compilação por conta da dependência da biblioteca e claro, problemas para compilar em certas plataformas.
